@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Variables que configurarás más adelante
-const VERIFY_TOKEN = process.env.VERIFY_TOKEN || 'mi_token_secreto_123';
+const VERIFY_TOKEN ='faec3fbeb820854590207d5791fb9e92';
 const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
 
 // 1. Endpoint para verificar el Webhook (Meta enviará una petición GET)
